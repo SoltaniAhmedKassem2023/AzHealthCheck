@@ -33,6 +33,8 @@ CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
 INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
+    'channels',
+    'channels_redis',
     'monitoring',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -52,8 +54,15 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
 ROOT_URLCONF = 'health_monitor.urls'
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}
 
 TEMPLATES = [
     {
@@ -70,7 +79,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'health_monitor.wsgi.application'
+ASGI_APPLICATION = 'health_monitor.asgi.application'
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',

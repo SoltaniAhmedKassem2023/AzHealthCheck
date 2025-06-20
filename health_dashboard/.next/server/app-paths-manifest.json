@@ -1,0 +1,5 @@
+{
+  "/(main)/page": "app/(main)/page.js",
+  "/(main)/user_health/page": "app/(main)/user_health/page.js",
+  "/(full-page)/auth/login/page": "app/(full-page)/auth/login/page.js"
+}

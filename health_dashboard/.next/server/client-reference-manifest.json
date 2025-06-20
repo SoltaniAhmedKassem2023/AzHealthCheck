@@ -1,0 +1,233 @@
+{
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/(full-page)/auth/login/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/(full-page)/auth/login/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./layout/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./layout/layout.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./layout/AppConfig.tsx": {
+      "*": {
+        "id": "(sc_client)/./layout/AppConfig.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/(main)/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/(main)/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/(main)/user_health/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/(main)/user_health/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    }
+  },
+  "edgeSSRModuleMapping": {},
+  "clientModules": {
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/layout.tsx": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/(full-page)/auth/login/page.tsx": {
+      "id": "(app-client)/./app/(full-page)/auth/login/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(full-page)/auth/login/page:static/chunks/app/(full-page)/auth/login/page.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/layout/layout.tsx": {
+      "id": "(app-client)/./layout/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(main)/layout:static/chunks/app/(main)/layout.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/layout/AppConfig.tsx": {
+      "id": "(app-client)/./layout/AppConfig.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(full-page)/layout:static/chunks/app/(full-page)/layout.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/(main)/page.tsx": {
+      "id": "(app-client)/./app/(main)/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(main)/page:static/chunks/app/(main)/page.js"
+      ],
+      "async": false
+    },
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/(main)/user_health/page.tsx": {
+      "id": "(app-client)/./app/(main)/user_health/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(main)/user_health/page:static/chunks/app/(main)/user_health/page.js"
+      ],
+      "async": false
+    }
+  },
+  "entryCSSFiles": {
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/layout": [
+      "static/css/app/layout.css"
+    ],
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/(full-page)/auth/login/page": [],
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/(main)/layout": [],
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/(full-page)/layout": [],
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/(main)/page": [],
+    "/home/co2/Desktop/AzHealthCheck/health_dashboard/app/(main)/user_health/page": []
+  }
+}
